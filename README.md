@@ -4,7 +4,6 @@ This repo is only a wiki, and is the place for active or interested contributors
 
 #### [Meetings](https://github.com/freedomofpress/securedrop-ux/wiki/Meetings)  ·  [Research Projects](https://github.com/freedomofpress/securedrop-ux/wiki#user-research)  ·  [Design Projects](https://github.com/freedomofpress/securedrop-ux/wiki#experience-design)
 
-Are you a developer looking for our [Styleguide](https://uracreative.github.io/securedrop-styleguide/)? It's currently a work-in-progress... but, there it is! <3 to Ura Design and Open Tech Fund for making it possible.
 
 ### Please never, ever, post information about specific SecureDrop users to this public wiki.
   
