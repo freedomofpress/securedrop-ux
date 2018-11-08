@@ -13,3 +13,5 @@ This repo is only a wiki and an issues/projects tracker, and is the place for ac
 Not yet involved but interested in contributing? [Please do!](https://github.com/freedomofpress/securedrop-ux/wiki/Volunteer-Survey)
 
 _*Current biggie project_
+
+_Image: [Peter Morville's Honeycomb](http://semanticstudios.com/publications/semantics/000029.php)_
