@@ -2,6 +2,8 @@
 
 This repo is only a wiki and an issues/projects tracker, and is the place for active or interested contributors to SecureDrop's experience design and user research efforts to collaborate. This is also our resource for all contributors to learn more about the human needs SecureDrop has been (and is actively being) shaped to serve. [**Get started**](https://github.com/freedomofpress/securedrop-ux/wiki)
 
+> “User experience is not about how a product works on the inside. User experience is about how it works on the outside, where a person comes into contact with it and has to work with it” (J.J.Garrett – The Elements of User Experience).
+
 #### [Meetings](https://github.com/freedomofpress/securedrop-ux/wiki/Meetings)  ·  [Resources](https://github.com/freedomofpress/securedrop-ux/wiki#resources) ·  [Research Projects](https://github.com/freedomofpress/securedrop-ux/wiki#user-research)  ·  [Design Projects](https://github.com/freedomofpress/securedrop-ux/wiki#experience-design)  ·  [Qubes Workstation Experience](https://github.com/freedomofpress/securedrop-ux/wiki/Qubes-Journalist-Workstation)*
 
 
