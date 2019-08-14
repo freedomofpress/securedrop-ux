@@ -1,1 +1,1 @@
-Assets used for user interface design.
+Assets used for coded UIs.
