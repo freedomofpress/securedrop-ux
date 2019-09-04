@@ -1,0 +1,151 @@
+body {
+    line-height: 1.7em;
+    color: #404040;
+    font-size: 13px;
+    background-image: url("../../bg.png");
+    background-position: 0px 121px;
+    background-repeat: repeat-x;
+    background-size:100% 50%;
+}
+
+body a {
+  text-decoration: none;
+  color: #0073ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #3d1759;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.l-box {
+  margin-left:12%;
+  margin-right:12%;
+  padding-top: 2%;
+  padding-left:5%;
+  padding-right:5%;
+  background:white;
+  font-family: 'Georgia', serif !important;
+}
+
+.footer-div {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.l-box-lrg {
+    padding: 2em;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.is-center {
+    text-align: center;
+}
+
+.ribbon {
+  color: white;
+  text-align: center;
+}
+
+
+.ribbon a {
+  color: #fc8a0a;
+}
+
+/* We want to give the content area some more padding */
+.content {
+    padding: 1em 1em 3em;
+}
+
+.content-subhead i {
+    margin-right: 7px;
+}
+
+/* This is the class used for the dark-background areas. */
+.ribbon {
+    background: #3d1759;
+}
+
+
+/*
+ * -- TABLET (AND UP) MEDIA QUERIES --
+ * On tablets and other medium-sized devices, we want to customize some
+ * of the mobile styles.
+ */
+@media (min-width: 48em) {
+
+    /* We increase the body font size */
+    body {
+        font-size: 16px;
+    }
+
+}
+
+.green {
+  color: #409121;
+}
+
+.red {
+  color: #a3000c;
+}
+
+.ruler {
+  width:100%;
+  border: 0;
+  height: 1px;
+  background: rgba(61, 23, 89, 0.25);
+}
+
+.dot {
+  vertical-align:-100%;
+  float:left;
+}
+
+
+.clear {
+  clear: both;
+}
+
+.tooltip-inner {
+  font-family: sans-serif;
+  background: #fff;
+  color: #e10f6a;
+  padding: 0.7em;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(51,51,51,1);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(51,51,51,1);
+  box-shadow: 3px 3px 5px 0px rgba(51,51,51,1);
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.tooltip-arrow {
+  padding: 0.2em;
+}
+
+.do-this {
+  margin-left:2.8em
+}
+
+.onion-url {
+  background:rgba(252, 138, 10, 0.1);
+  padding:0.5em;width:100%;
+  text-align:center;
+  font-weight:bold;
+  font-family:'Courier New', 'Courier', fixed;
+}
+
+.defined-term {
+  border-style: dotted;
+  border-width: 0 0 1px 0;
+  border-color: #333;
+}

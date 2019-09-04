@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="A layout example that shows off a responsive product landing page.">
+      <title>New York World: Tips</title>
+      <link rel="stylesheet" href="css/pure-min.css">
+      <link rel="stylesheet" href="css/grids-responsive-min.css">
+      <link rel="stylesheet" href="css/fonts.css">
+      <link rel="stylesheet" href="css/base.css">
+   </head>
+   <body>
+      <img src="bignyw.png" width="1200" class="pure-img-responsive" id="nyw-logo">
+      <div class="content-wrapper">
+         <div class="content">
+            <div class="pure-g">
+               <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1">
+                  <img src="sd.png" width="60" id="sd-logo">
+                  <div id="intro-section">
+                     <h2>
+                        SecureDrop
+                     </h2>
+                     <p>
+                        SecureDrop is a tool that enables secure and <b>anonymous</b> communication between sources (you!) and our journalists. As a source, you can send messages or submit documents through our SecureDrop, and receive follow-up questions from our journalists. You will only be known to our journalists through an assigned codename. No other information tied to you is required.
+                  </div>
+                  <p>
+                     SecureDrop is not a cloud service; it is hosted by the <i>New York World</i>. To protect your anonymity, SecureDrop was built to only be accessed through the Tor network, which we will guide you on using, below.
+                  <p>
+                     To learn more about how data is shared and used when you use our SecureDrop, please read our <a href="javascript:void(0);" id="privacy-link">Privacy Policy</a>.
+                  <p>
+                  <hr class="ruler">
+                  <p>
+                  <h3>Before you begin</h3>
+                  To protect your anonymity when using SecureDrop, it is essential that you do not use a network or device that can easily be traced back to your real identity. Instead, use public wifi networks and devices you control.
+                  <ul>
+                     <li><span class="green"><strong>DO</strong> access SecureDrop on a network not associated with you</span>, like the Wi-Fi at a library or cafe.
+                     <li><span class="red">Do <strong>NOT</strong></span> access SecureDrop on your employer’s network.
+                     <li><span class="red">Do <strong>NOT</strong></span> access SecureDrop using your employer’s hardware.
+                     <li><span class="red">Do <strong>NOT</strong></span> access SecureDrop on your home network.
+                  </ul>
+                  <p>
+                  <hr class="ruler">
+                  <p>
+                  <h3>How to use SecureDrop</h3>
+                  <p>
+                     <img src="dot-one.png" class="dot">
+                  <div class="do-this">
+                     Find a place to work at a public library or at a cafe that has a wifi network you can use without creating an account. Make sure your screen is out of view from security cameras and onlookers, before you begin.
+                  </div>
+                  <p class="clear">
+                     <img src="dot-two.png" class="dot">
+                  <div class="do-this">
+                     Download, install, and launch the <a href="javascript:void(0);" id="tor-link">Tor browser</a>.
+                     <br> Set the Tor Browser’s Security Setting to “Highest” through the shield icon in the toolbar.
+                  </div>
+                  <p class="clear">
+                     <img src="dot-three.png" class="dot">
+                  <div class="do-this">
+                     Copy and paste the address for our SecureDrop, into the Tor browser’s URL bar:
+                     <p>
+                     <div class="onion-url">https://securedrop.newyorkworld.org/</div>
+                  </div>
+                  <p class="clear">
+                     <img src="dot-four.png" class="dot">
+                  <div class="do-this">
+                     When you make your first submission, you will receive a unique codename. Memorize it. If you write it down, be sure to destroy the copy as soon as you’ve committed it to memory.
+                  </div>
+                  <p class="clear">
+                     <img src="dot-five.png" class="dot">
+                  <div class="do-this">
+                     Return to our SecureDrop in a few days to check for responses, using your codename. You may also send additional files or messages at any time.
+                  </div>
+                  <p>
+                  <hr class="ruler">
+                  <p>
+                  <h3>Your safety matters</h3>
+                  No technology can guarantee your security or anonymity. The operational security choices you make when using any technology play a significant role. Below are some best practices we recommend following.
+                  <ul>
+                     <li>Do not <strong>ever</strong> discuss leaking or whistleblowing, even with trusted contacts.
+                     <li>You can use a unique computer you’ve designated specifically to handle sharing sensitive information. Or, you can boot your computer from an external drive using an operating system like Tails, which boots from a USB stick and erases your activity at the end of every session.
+                     <li>Each file contains valuable metadata about its source — when it was created and downloaded, what machine was involved, the machine’s owner, etc. You can scrub metadata from some files prior to submission using the Metadata Anonymization Toolkit featured in Tails.
+                     <li>
+                        Take great care to think about what your online behavior might reveal, and consider using Tor Browser to mitigate monitoring by third parties.
+                  </ul>
+                  <p>
+                     Our organization retains strict access control over our SecureDrop. Only a select few journalists within our organization have access to our SecureDrop. We control the servers that store your submissions, so no third party has direct access to the metadata or content of what you send us.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="ribbon l-box-lrg pure-g">
+            <div class="pure-u-1 pure-u-md-1 pure-u-lg-1 footer-div">
+               <a href="javascript:void(0);">Return to New York World’s website</a>
+               <p>
+                  New York World owns and operates the servers that our SecureDrop runs on. Read our <a href="javascript:void(0);">SecureDrop privacy policy to learn more</a>.
+            </div>
+         </div>
+      </div>
+      <script src="popper.min.js"></script>
+      <script src="tooltip.min.js"></script>
+      <script type="text/javascript">
+         document.addEventListener('DOMContentLoaded', function() {
+             var index = 0;
+
+             new Tooltip(document.getElementById("privacy-link"), {
+                 placement: "bottom",
+                 title: "For the purposes of this test, we are not linking to a <b>privacy policy</b>.",
+                 html: true
+             });
+             new Tooltip(document.getElementById("tor-link"), {
+                 placement: "bottom",
+                 title: "For the purposes of this test, skip this step.<br>Instead, simply open up the link below in a new browser tab.",
+                 html: true
+             });
+
+         });
+      </script>
+   </body>
+</html>
