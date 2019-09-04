@@ -2,7 +2,7 @@ body {
   line-height: 1.7em;
   color: #404040;
   font-size: 13px;
-  background-image: url("../../bg.png");
+  background-image: url("../bg.png");
   background-position: 0px 121px;
   background-repeat: repeat-x;
   background-size: 100% 50%;
