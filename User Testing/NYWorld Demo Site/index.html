@@ -22,10 +22,10 @@
                         SecureDrop
                      </h2>
                      <p>
-                        SecureDrop is a tool that enables secure and <b>anonymous</b> communication between sources (you!) and our journalists. As a source, you can send messages or submit documents through our SecureDrop, and receive follow-up questions from our journalists. You will only be known to our journalists through an assigned codename. No other information tied to you is required.
+                        SecureDrop is a tool that enables secure and <b>anonymous</b> communication between sources (you!) and our journalists. As a source, you can send messages or submit documents through our SecureDrop, as well as receive follow-up questions from our journalists. Your name, email, phone number, or other information tied to you, are not required.
                   </div>
                   <p>
-                     SecureDrop is not a cloud service; it is hosted by the <i>New York World</i>. To protect your anonymity, SecureDrop was built to only be accessed through the Tor network, which we will guide you on using, below.
+                     SecureDrop is not a cloud service; it is hosted by the <i>New York World</i>. To protect your anonymity, SecureDrop was built to only be accessed through the <span class="defined-term" id="tor-network">Tor network</span>, which we will guide you on using, below.
                   <p>
                      To learn more about how data is shared and used when you use our SecureDrop, please read our <a href="javascript:void(0);" id="privacy-link">Privacy Policy</a>.
                   <p>
@@ -57,9 +57,9 @@
                   <p class="clear">
                      <img src="dot-three.png" class="dot">
                   <div class="do-this">
-                     Copy and paste the address for our SecureDrop, into the Tor browser’s URL bar:
-                     <p>
-                     <div class="onion-url">https://securedrop.newyorkworld.org/</div>
+                     Copy and paste the <span class="defined-term" id="onion-service">Onion Service</span> address for our SecureDrop into the Tor browser’s address bar:
+                     <p style="margin-bottom:0;">
+                     <div class="onion-url">https://securedrop.nyworld.org/</div>
                   </div>
                   <p class="clear">
                      <img src="dot-four.png" class="dot">
@@ -78,7 +78,7 @@
                   No technology can guarantee your security or anonymity. The operational security choices you make when using any technology play a significant role. Below are some best practices we recommend following.
                   <ul>
                      <li>Do not <strong>ever</strong> discuss leaking or whistleblowing, even with trusted contacts.
-                     <li>You can use a unique computer you’ve designated specifically to handle sharing sensitive information. Or, you can boot your computer from an external drive using an operating system like Tails, which boots from a USB stick and erases your activity at the end of every session.
+                     <li>You can use a unique computer you’ve designated specifically to handle sharing sensitive information. Or, you can boot your computer from an external drive using an operating system like <span class="defined-term" id="tails">Tails</span>, which boots from a USB stick and erases your activity at the end of every session.
                      <li>Each file contains valuable metadata about its source — when it was created and downloaded, what machine was involved, the machine’s owner, etc. You can scrub metadata from some files prior to submission using the Metadata Anonymization Toolkit featured in Tails.
                      <li>
                         Take great care to think about what your online behavior might reveal, and consider using Tor Browser to mitigate monitoring by third parties.
@@ -103,17 +103,21 @@
          document.addEventListener('DOMContentLoaded', function() {
              var index = 0;
 
-             new Tooltip(document.getElementById("privacy-link"), {
-                 placement: "bottom",
-                 title: "For the purposes of this test, we are not linking to a <b>privacy policy</b>.",
+             new Tooltip(document.getElementById("tor-network"), {
+                 placement: "auto",
+                 title: "The <b>Tor network</b> is an Internet-based network that encrypts and then routes traffic through a series of computers (called <i>relays</i>) around the world. Tor conceals a user's location, identity and online behavior from third parties conducting network surveillance or traffic analysis.",
                  html: true
              });
-             new Tooltip(document.getElementById("tor-link"), {
-                 placement: "bottom",
-                 title: "For the purposes of this test, skip this step.<br>Instead, simply open up the link below in a new browser tab.",
+             new Tooltip(document.getElementById("onion-service"), {
+                 placement: "auto",
+                 title: "An <b>Onion Service</b> is a secure website or other Internet service that you can only access using the Tor network. A web address using a garble of letters and numbers followed by the suffix <i>.onion</i> is likely to be an Onion Service.<p>When you access an Onion Service using the Tor Browser, your Internet traffic is fully encrypted, and your anonymity is protected by the Tor network.",
                  html: true
              });
-
+             new Tooltip(document.getElementById("tails"), {
+                 placement: "auto",
+                 title: "<b>Tails</b> is an operating system that you can boot on almost any computer, using a USB stick or a DVD.<p>To protect your anonymity, all connections to the Internet through Tails are forced to go through the Tor network. Use of Tails will leave no trace on the computer you are using it on, unless you ask it to.<p><a href='https://tails.boum.org/' target='_blank'>Learn more about Tails</a>",
+                 html: true
+             });
          });
       </script>
    </body>
