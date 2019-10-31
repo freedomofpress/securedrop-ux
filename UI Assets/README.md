@@ -18,3 +18,4 @@ Icon | Status | Name | 100% Dimensions | Used where?
 ![image](https://user-images.githubusercontent.com/8262612/62000088-fdfe0c00-b083-11e9-9a3d-d9b1d5e3c745.png) | [Published](https://drive.google.com/open?id=1NA4cX_qptRVPsrL9ExoW9Tykqz4NbVai) | `languages-arrow.png` | **7x3** | Languages widget, arrow
 ![image](https://user-images.githubusercontent.com/8262612/63056811-b22dce00-be9d-11e9-9371-7b6eb1b1412e.png) | this directory | `keyhole-codename.png` | **25x25** and **21x21** | Codename widget, keyhole
 ![image](https://user-images.githubusercontent.com/8262612/63057210-95de6100-be9e-11e9-80c4-02074982ab16.png) | this directory | `bang-inlineboxy_coral.png` | **15x15** | Inline bang, urgent coral
+![image](https://user-images.githubusercontent.com/8262612/67990225-83004080-fbf2-11e9-8eb1-36cd0b304e1c.png) | this directory | `torbroom-black.png` | **16x16** | Inline bang, urgent coral
