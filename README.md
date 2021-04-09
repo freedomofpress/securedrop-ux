@@ -1,3 +1,5 @@
+> By contributing to this project, you agree to abide by our [Code of Conduct](https://github.com/freedomofpress/.github/blob/main/CODE_OF_CONDUCT.md).
+
 <img src="http://boxesandarrows.com/files/banda/uxdesign-planning-is/image_4_H_Maassen_honeycomb.jpg" alt="Morville's Honeycomb" width="300">
 
 # Welcome to the SecureDrop UX Wiki 
