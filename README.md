@@ -8,7 +8,7 @@ This repo is only a wiki and an issues/projects tracker, and is the place for ac
 
 > “User experience is not about how a product works on the inside. User experience is about how it works on the outside, where a person comes into contact with it and has to work with it” (J.J.Garrett – The Elements of User Experience).
 
-#### [Meetings](https://github.com/freedomofpress/securedrop-ux/wiki/Meetings)  ·  [Resources](https://github.com/freedomofpress/securedrop-ux/wiki#resources) ·  [Research Projects](https://github.com/freedomofpress/securedrop-ux/wiki#user-research)  ·  [Design Projects](https://github.com/freedomofpress/securedrop-ux/wiki#experience-design)  ·  [Qubes Workstation Experience](https://github.com/freedomofpress/securedrop-ux/wiki/Qubes-Journalist-Workstation)*
+#### [Meetings](https://github.com/freedomofpress/securedrop-ux/wiki/Meetings)  ·  [Prototypes Page](https://github.com/freedomofpress/securedrop-ux/wiki/Prototypes-Archive) · [Resources](https://github.com/freedomofpress/securedrop-ux/wiki#resources) ·  [Research Projects](https://github.com/freedomofpress/securedrop-ux/wiki#user-research)  ·  [Design Projects](https://github.com/freedomofpress/securedrop-ux/wiki#experience-design)  ·  [Qubes Workstation Experience](https://github.com/freedomofpress/securedrop-ux/wiki/Qubes-Journalist-Workstation)*
 
 ### Please never, ever, post information about specific SecureDrop users to this public wiki.
   
