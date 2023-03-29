@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg668"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="SD monochrome Desktop Icon Clean Inkscape.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview670"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="132.40574"
+     inkscape:cy="51.972348"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs665">
+	
+	
+	
+	
+	
+	
+</defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-82.205889,-70.837011)">
+    <path
+       id="path12"
+       style="stroke-width:0.691307"
+       d="m 146.20669,78.045161 -50.258807,26.300739 9.72e-4,58.24805 50.257495,29.03491 50.25753,-29.03358 v -58.28754 z"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       class="st0"
+       d="m 192.38384,105.00797 -46.17827,-24.127774 -46.18039,24.126624 46.18039,26.68447 z m -52.67762,2.14191 c -5.66872,0 -10.30048,-2.62697 -10.30048,-5.73785 0,-3.180017 4.56263,-5.737856 10.30048,-5.737856 5.66871,0 10.30047,2.626969 10.30047,5.737856 0,0.62217 -0.13821,1.24435 -0.48392,1.7974 l 17.0753,4.70088 -15.20878,8.57222 -9.40177,-9.47091 c -0.82957,0.13827 -1.52087,0.13827 -2.2813,0.13827 z"
+       id="path6"
+       style="fill:#ffffff;stroke-width:0.691307"
+       sodipodi:nodetypes="cccccssssccccss" />
+    <polygon
+       class="st0"
+       points="283,306.3 255,290.1 255,303.3 296,326.9 296,294.6 266.1,277.4 266.1,271.3 296,288.5 296,275.8 255,252.1 255,284.1 283,300.3 "
+       id="polygon4"
+       style="fill:#ffffff"
+       transform="matrix(0.6913074,0,0,0.6913074,-66.715641,-50.952125)" />
+    <path
+       class="st0"
+       d="m 182.63893,123.94865 c -0.6913,0 -1.45173,0.20737 -2.07392,0.55304 l -25.37099,14.72485 v 36.91583 l 27.37577,-15.83095 c 2.62698,-1.52089 4.21698,-4.28611 4.21698,-7.25874 v -24.88706 c -0.0692,-2.28131 -1.86651,-4.21697 -4.14784,-4.21697 z m -3.52566,26.40794 c 0,1.79739 -0.96783,3.38742 -2.4887,4.21699 l -12.78918,7.18957 -0.0692,-17.69746 12.58177,-7.25873 c 0.89871,-0.48391 2.00482,-0.13827 2.48871,0.69131 0.13822,0.27652 0.20746,0.55305 0.27654,0.82957 z"
+       id="path8"
+       style="fill:#ffffff;stroke-width:0.691307" />
+  </g>
+</svg>
